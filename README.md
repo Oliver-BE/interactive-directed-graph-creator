@@ -14,4 +14,4 @@
 ## Demo
 For a demo of this interactive directed graph creator see either of the following two links:
 * https://jsfiddle.net/obe02/z7tg2u1b/
-* 
+* https://bl.ocks.org/Oliver-BE/29a36997a32106192ce3d60c81afdfe5
