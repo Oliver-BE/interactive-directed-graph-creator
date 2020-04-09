@@ -1,0 +1,100 @@
+svg {
+  background-color: white;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+svg:not(.active):not(.shift) {
+  cursor: default;
+}
+
+svg:not(.active):not(.shift) path.link {
+  cursor: pointer;
+}
+
+svg:not(.shift) rect.rectNode {
+  cursor: pointer;
+}
+
+g.pathClass.selected {
+  stroke-dasharray: 10,2;
+}
+
+g.dummyPathClass.selected {
+  stroke-dasharray: 10,2;
+}
+
+path.link.dragline {
+  pointer-events: none;
+}
+
+path.link {
+  fill: none;
+  stroke: #000;
+  stroke-width: 4px;
+  cursor: default;
+}
+
+path.link.dummy {
+  fill: none;
+  stroke: #000;
+  stroke-width: 4px;
+  cursor: default;
+}
+
+path.link.hidden {
+  stroke-width: 0;
+}
+
+rect.rectNode {
+	stroke-width: 1.5px;
+	cursor: grab;
+}
+
+rect.rectNode.reflexive {
+	stroke: #000 !important;
+	stroke-width: 2.5px;
+}
+
+text.id {
+  text-anchor: middle;
+  font-size: 10px;
+  font: sans-serif;
+  fill: black;
+  pointer-events: none;
+  font-weight: bold;
+}
+
+text.linklabel.hidden {
+  fill:none;
+}
+
+#toolbox {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0.5em;
+    margin-left: 1.5em;
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    padding: 1em;
+    z-index: 5;
+    background: #f6f6f6;
+}
+
+#toolbox input{
+    width: 30px;
+    opacity: 0.5;
+}
+#toolbox input:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#download-input{
+    margin: 0 0.5em;
+}
