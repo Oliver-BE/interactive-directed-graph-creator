@@ -1,4 +1,4 @@
-# State Chart Creator
+# Interactive Directed Graph Creator
 ## Functionality 
 * Hold control and click anywhere empty to add a new node.
 * Click on a node and drag to create edges between nodes. 
