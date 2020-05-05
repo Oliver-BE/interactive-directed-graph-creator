@@ -12,6 +12,7 @@
 * The garbage can button allows you to erase the graph you are working on.
 
 ## Example
+An example graph can be seen below:
 ![image](example.png)
 
 ## Demo
