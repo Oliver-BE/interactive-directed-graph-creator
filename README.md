@@ -11,6 +11,9 @@
 * The download button allows you to save all data from the created graph to a JSON file.
 * The garbage can button allows you to erase the graph you are working on.
 
+## Example
+![image](example.png)
+
 ## Demo
 For a demo of this interactive directed graph creator see the following links (note that the second link is buggy with user input, first link works fully):
 * https://jsfiddle.net/obe02/z7tg2u1b/
