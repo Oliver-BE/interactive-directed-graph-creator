@@ -16,6 +16,7 @@ An example graph can be seen below:
 ![image](example.png)
 
 ## Demo
-For a demo of this interactive directed graph creator see the following links (note that the second link is buggy with user input, first link works fully):
+For a demo of this interactive directed graph creator see the following links (note that the third link is buggy with user input, the other two work fully):
+* https://codepen.io/oliver-be/pen/QWjZaBZ
 * https://jsfiddle.net/obe02/z7tg2u1b/
 * https://bl.ocks.org/Oliver-BE/29a36997a32106192ce3d60c81afdfe5
