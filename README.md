@@ -13,7 +13,7 @@
 
 ## Example
 An example graph can be seen below:
-![image](example.png)
+![image](images/example.png)
 
 ## Demo
 For a demo of this interactive directed graph creator see the following links (note that the third link is buggy with user input, the other two work fully):
