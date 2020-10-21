@@ -31,8 +31,9 @@ const colors = d3.scaleOrdinal(d3.schemeCategory10);
 var svg = d3.select("body")
   .append("svg")
   .attr("oncontextmenu", "return false;")
-  .attr("width", width)
-  .attr("height", height);
+  .attr("viewBox", "0 0 " + width + " " + height);
+  // .attr("width", width)
+  // .attr("height", height);
 
 // Initialize D3 force layout
 const force = d3.forceSimulation()
@@ -405,7 +406,7 @@ function updateNodes() {
   // show node IDs
   rectContainer.append("svg:text")
     .attr("dy", "-0.5em")
-    .attr("dx", function(d) { return d.w/2})
+    .attr("dx", function (d) { return d.w / 2 })
     .attr("class", "id")
     .text((d) => d.name);
 

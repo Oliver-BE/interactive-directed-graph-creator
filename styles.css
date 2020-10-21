@@ -98,3 +98,12 @@ text.linklabel.hidden {
 #download-input{
     margin: 0 0.5em;
 }
+
+#instruction-modal-button {
+  position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 0.8em;
+    margin-right: 1.0em; 
+    z-index: 5; 
+}
