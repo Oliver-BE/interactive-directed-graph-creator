@@ -100,7 +100,7 @@ text.linklabel.hidden {
 }
 
 #instruction-modal-button {
-  position: absolute;
+    position: absolute;
     bottom: 0;
     right: 0;
     margin-bottom: 0.8em;
