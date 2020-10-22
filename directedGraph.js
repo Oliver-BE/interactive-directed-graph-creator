@@ -540,29 +540,16 @@ function mousedown() {
     // insert new node at point
     const point = d3.mouse(this);
     
-    // var text = prompt("What do you want to name the new Node?");
+    var text = prompt("What do you want to name the new Node?");
     
-    // if(text !== null){
+    if(text !== null){
     
-    //   const node = { id: ++lastNodeId, name: text, h: 50, w: 50, reflexive: false, x: point[0], y: point[1] };
-    //   dataset.nodes.push(node);
+      const node = { id: ++lastNodeId, name: text, h: 50, w: 50, reflexive: false, x: point[0], y: point[1] };
+      dataset.nodes.push(node);
 
-    //   update();
-    // }
-    // svg.classed("ctrl", false);
-
-    bootbox.prompt("What do you want to name the new Node?", function (result) {
-      
-      if (result !== null) {
-    
-        const node = { id: ++lastNodeId, name: result, h: 50, w: 50, reflexive: false, x: point[0], y: point[1] };
-        dataset.nodes.push(node);
-
-        update();
-      }
-
+      update();
       svg.classed("ctrl", false);
-    });
+    }
   }
   
 }
