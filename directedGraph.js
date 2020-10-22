@@ -547,9 +547,10 @@ function mousedown() {
       const node = { id: ++lastNodeId, name: text, h: 50, w: 50, reflexive: false, x: point[0], y: point[1] };
       dataset.nodes.push(node);
 
-      update();
-      svg.classed("ctrl", false);
+      update(); 
     }
+
+    svg.classed("ctrl", false);
   }
   
 }
